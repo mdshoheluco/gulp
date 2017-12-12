@@ -1,2 +1,5 @@
-console.log('Hello World!');
-console.log('added a line to test');
+var gulp = require("gulp");
+
+gulp.task('default', function() {
+    console.log('Hello World!');
+});
