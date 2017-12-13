@@ -1,7 +1,7 @@
 var gulp = require("gulp");
 var uglify = require("gulp-uglify");
 var csso = require('gulp-csso');
-var plumber = require('gulp-plumber');
+//var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync').create();
 
 gulp.task('serve', ['styles'], function() {
